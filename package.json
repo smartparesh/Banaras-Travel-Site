@@ -1,9 +1,11 @@
-{
+{"homepage": "https://YOUR_GITHUB_USERNAME.github.io/Banaras-Travel-Site",
   "name": "spiritual-triangle-tour:-varanasi,-ayodhya-&-lucknow",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
